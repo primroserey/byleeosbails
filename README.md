@@ -51,8 +51,8 @@ thumbnail: await (await fetch("URL IMG")).buffer(),
 itemCount: 1000,
 status: "INQUIRY",
 surface: "CATALOG",
-message: "dfa kimochi",
-orderTitle: "kyah",
+message: "test",
+orderTitle: "p",
 sellerJid: "0@s.whatsapp.net",
 token: Buffer.from("777777"),
 totalAmount1000: 1000,
@@ -73,8 +73,8 @@ name: "review_and_pay",
 buttonParamsJson: JSON.stringify({
 currency: "IDR",
 total_amount: { value: 100, offset: 100 },
-reference_id: "DAFFA-DEV",
-type: "daffa",
+reference_id: "ByleeosBot",
+type: "reyy",
 payment_status: "ganteng",
 payment_timestamp: Date.now(),
 order: {
@@ -90,7 +90,7 @@ quantity: 1
 }
 ]
 },
-additional_note: "daffa gntng bet jir",
+additional_note: ":p",
 native_payment_methods: "",
 share_payment_status: true
 })
@@ -180,13 +180,13 @@ await client.sendMessage(m.chat, {
 eventMessage: {
 isCanceled: false,
 name: "Hello World",
-description: "ravage native",
+description: "byleeosbot",
 location: {
 degreesLatitude: 0,
 degreesLongitude: 0,
 name: "rowrrrr"
 },
-joinLink: "https://call.whatsapp.com/video/daffadevv",
+joinLink: "https://call.whatsapp.com/video/maklocolmek",
 startTime: "1763019000",
 endTime: "1763026200",
 extraGuestsAllowed: false
@@ -223,7 +223,7 @@ await client.sendMessage(m.chat, {
 interactiveMessage: {
 header: "Hello World",
 title: "Hello World",
-footer: "telegram: @daffadevv ",
+footer: "telegram: @rrey1st ",
 buttons: [
 {
 name: "cta_copy",
@@ -246,26 +246,26 @@ await client.sendMessage(m.chat, {
 interactiveMessage: {
 header: "Hello World",
 title: "Hello World",
-footer: "telegram: @daffadevv",
+footer: "telegram: @rrey1st",
 image: { url: "https://example.com/image.jpg" },
 nativeFlowMessage: {
 messageParamsJson: JSON.stringify({
 limited_time_offer: {
 text: "idk hummmm?",
-url: "https://t.me/daffadevv",
-copy_code: "ravage",
+url: "https://t.me/rrey1st",
+copy_code: "byleeos",
 expiration_time: Date.now() * 999
 },
 bottom_sheet: {
 in_thread_buttons_limit: 2,
 divider_indices: [1, 2, 3, 4, 5, 999],
-list_title: "ravage native",
-button_title: "ravage native"
+list_title: "byleeosbot",
+button_title: "byleeosbot"
 },
 tap_target_configuration: {
 title: " X ",
 description: "bomboclard",
-canonical_url: "https://t.me/daffadevv",
+canonical_url: "https://t.me/rrey1st",
 domain: "shop.example.com",
 button_index: 0
 }
@@ -293,7 +293,7 @@ title: "title",
 highlight_label: "label",
 rows: [
 {
-title: "@daffadevv",
+title: "@rrey1st",
 description: "love you",
 id: "row_2"
 }
@@ -325,7 +325,7 @@ await client.sendMessage(m.chat, {
 interactiveMessage: {
 header: "Hello World",
 title: "Hello World",
-footer: "telegram: @daffadevv",
+footer: "telegram: @rrey1st",
 image: { url: "https://example.com/image.jpg" },
 buttons: [
 {
@@ -378,10 +378,10 @@ await client.sendMessage(m.chat, {
 interactiveMessage: {
 header: "Hello World",
 title: "Hello World",
-footer: "telegram: @daffadevv",
+footer: "telegram: @rrey1st",
 document: fs.readFileSync("./package.json"),
 mimetype: "application/pdf",
-fileName: "daffadevv.pdf",
+fileName: "maklo.pdf",
 jpegThumbnail: fs.readFileSync("./document.jpeg"),
 contextInfo: {
 mentionedJid: [m.chat],
@@ -389,12 +389,12 @@ forwardingScore: 777,
 isForwarded: false
 },
 externalAdReply: {
-title: "Ravage",
+title: "byleeos",
 body: "",
 mediaType: 3,
 thumbnailUrl: "https://example.com/image.jpg",
 mediaUrl: " X ",
-sourceUrl: "https://t.me/daffadevv",
+sourceUrl: "https://t.me/rrey1st",
 showAdAttribution: true,
 renderLargerThumbnail: false
 },
@@ -403,8 +403,8 @@ buttons: [
 name: "cta_url",
 buttonParamsJson: JSON.stringify({
 display_text: "Telegram",
-url: "https://t.me/daffadevv",
-merchant_url: "https://t.me/daffadevv"
+url: "https://t.me/rrey1st",
+merchant_url: "https://t.me/rrey1st"
 })
 }
 ]
@@ -420,18 +420,18 @@ await client.sendMessage(m.chat, {
 interactiveMessage: {
 header: "Hello World",
 title: "Hello World",
-footer: "telegram: @daffadevv",
+footer: "telegram: @rrey1st",
 document: fs.readFileSync("./package.json"),
 mimetype: "application/pdf",
-fileName: "daffadevv.pdf",
+fileName: "maklo.pdf",
 jpegThumbnail: fs.readFileSync("./document.jpeg"),
 buttons: [
 {
 name: "cta_url",
 buttonParamsJson: JSON.stringify({
 display_text: "Telegram",
-url: "https://t.me/daffadevv",
-merchant_url: "https://t.me/daffadevv"
+url: "https://t.me/rrey1st",
+merchant_url: "https://t.me/rrey1st"
 })
 }
 ]
